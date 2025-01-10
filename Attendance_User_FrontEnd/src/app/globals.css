@@ -1,0 +1,27 @@
+/* styles/globals.css */
+/* To Hide scrollbar for all browsers */
+*::-webkit-scrollbar {
+    display: none;
+  }
+  * {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  @media print {
+    .no-print {
+      display: none;
+    }
+    /* Add additional print-specific styles here */
+  }
+  
+  .App{
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 30px;
+ 
+}
+.none{
+    text-align: center;
+   margin-top: 10%;
+}
