@@ -1,0 +1,315 @@
+/* 
+  .label{
+   
+    color: #1c093c;
+    font-size: 14px;
+}
+ 
+  .input{
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 300px;
+    margin-left: 10px;
+  }
+    
+
+  .select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 30px;
+    width: 300px;
+    margin-left: 10px;
+  }
+  
+ 
+
+.checkbox {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.h1{
+  
+  font-size: 30px;
+    text-align: center;
+    color: #1c093c;
+}
+
+.AddLeaveCombination{
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  height: 30px;
+    width: 200px;
+    background-color: #FFDD67;
+    color:	#28282B;
+    margin-top: 20px;
+  
+ 
+}
+.CreateLeavePolicy{
+  display: flex;
+  justify-content: flex-end;  
+ 
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  margin-left: 90%;
+  margin-bottom: 30px;
+ 
+  left: 50%;
+    transform: translateX(-50%);
+  
+
+}
+.h1{
+ 
+  padding-bottom: 50px;
+ left:0;
+ color: #0d0d3a9c;
+ font-size: 30px;
+    text-align: left;
+}
+.box{
+  background-color: rgb(179, 117, 35);
+}
+.availableleaves{
+  padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 30px;
+   
+    margin-left: 10px;
+  width: 150px;
+  
+}
+
+.CreateLeavePolicyButton{
+  left: 100%;
+  top: 30px;
+  margin-top: 600px;
+ 
+}
+.row{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-gap: 20px 30px;
+  margin-bottom: 20px;
+}
+.container{
+  background-color: #ffffff;
+  width: 70%;
+  min-width: 420px;
+  padding: 35px 50px;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  box-shadow: 20px 30px 25px rgba(0,0,0,0.15);
+  margin-left: 40px;
+}
+.availableleavescontainer{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 15px;
+}
+.carryforwardlimitcontainer{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 15px;
+}
+.carryforwardlimit{
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 30px;
+ 
+  margin-left: 10px;
+width: 150px;
+} */
+.container {
+  display: flex;
+  height: 100vh;
+   /* background-color:#FFFAA0; */
+ 
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2b2f77;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  color: #f7c978;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.sidebar ul li:hover {
+  color: #f7c978;
+}
+
+.main {
+  /* flex: 1;
+  padding: 40px;
+  background-color: #eef2f6;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 80%;
+  padding: 30px;
+  background-color:#f7c978;;
+  border-radius: 10px;
+  /* margin: 20px; */
+  margin-left: 120px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* .leaveForm {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+} */
+
+.leaveForm h1 {
+  text-align: center;
+  color: #2b2f77;
+  margin-bottom: 30px;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* .formGroup input, */
+.select {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 40px;
+  margin-left: 10px;
+}
+.input{
+  width: 120px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  height: 40px;
+  margin-left: 10px;
+}
+
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 20px;
+  width: 20px;
+}
+
+.formGroupCheckbox label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.submitBtn {
+  left: 100%;
+  top: 30px;
+  margin-top: 10px;
+  background-color:  #007bff;
+  float: inline-end;
+  color:#fff;
+}
+
+.submitBtn:hover {
+  background-color: #e6e1d8;
+}
+.leavecombinationbutton{
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  padding: 10px 20px;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  height: 30px;
+    width: 200px;
+    background-color: #FFDD67;
+    color:	#28282B;
+    margin-top: 20px;
+  
+}
+.maincontainer{
+  width: 80%;
+  padding: 30px;
+  background-color:white;;
+  border-radius: 10px;
+  
+  margin-left: 270px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  /* height: 50px; */
+}
+.row{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  grid-gap: 20px 30px;
+  margin-bottom: 20px;
+}
+.availableleavescontainer{
+  display: flex;
+}
+.checkboxcontainer{
+  display: flex;
+  gap: 10px;
+}
